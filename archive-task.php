@@ -1,10 +1,10 @@
 <?php
 /**
- * The template for displaying archive pages
+ * The template for displaying archived tasks
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
- * @package _s
+ * @package _s-child_theme
  */
 
 get_header();
