@@ -34,8 +34,8 @@ if (!function_exists('_s_child_theme_task_register')) {
 		$labels = array(
 			'name' => _x('Tasks', 'Post Type General Name', 'text_domain'),
 			'singular_name' => _x('Task', 'Post Type Singular Name', 'text_domain'),
-			'menu_name' => __('Task Types', 'text_domain'),
-			'name_admin_bar' => __('Task Type', 'text_domain'),
+			'menu_name' => __('Task', 'text_domain'),
+			'name_admin_bar' => __('Task', 'text_domain'),
 			'archives' => __('Task Archives', 'text_domain'),
 			'attributes' => __('Task Attributes', 'text_domain'),
 			'parent_item_colon' => __('Parent Task:', 'text_domain'),
