@@ -10,3 +10,19 @@ License URI: LICENSE
 Text Domain: _s
 Template: _s
 */
+
+body{
+  background-color:rgb(145, 145, 145);
+}
+h1{
+  display:inline;
+}
+input[type='checkbox']{
+  width:1.2rem;
+  height:1.2rem;
+}
+input[type='checkbox']:checked + label h1{
+  text-decoration:line-through;
+  color: rgba(255, 240, 0, 0.5);
+}
+
