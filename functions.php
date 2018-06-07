@@ -93,16 +93,20 @@ add_action( 'add_meta_boxes', 'wpdocs_register_meta_boxes' );
 /**
  * Meta box display callback.
  *
- * @param WP_Post $post Current post object.
+ * @param WP_Post $task Current post object.
  */
 function wpdocs_my_display_callback( $task ) {
     // Display code/markup goes here. Don't forget to include nonces!
+	?>
+	<input type="checkbox" name="_s_child_theme_task_status" id="_s_child_theme_task_status">
+		<label for="_s_child_theme_task_status"><h1>Task Title</h1></label>
+	<?php
 }
 
 /**
  * Save meta box content.
  *
- * @param int $post_id Post ID
+ * @param int $task_id Post ID
  */
 function wpdocs_save_meta_box( $task_id ) {
     // Save logic goes here. Don't forget to include nonce checks!
